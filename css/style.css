@@ -57,6 +57,11 @@ body {
   margin-right: 30px;
   position: fixed;
 }
+
+#my_cart_text {
+  font-size: 30px;
+}
+
 .cart-main {
   padding-right: 30px;
 }
