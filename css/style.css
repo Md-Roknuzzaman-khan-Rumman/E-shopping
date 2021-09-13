@@ -65,6 +65,7 @@ body {
   margin-bottom: 30px;
   border-right: none;
 }
+
 .search-button {
   padding: 5px 10px;
   border-radius: 4px;
@@ -97,11 +98,12 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  border-radius: 10px;
 }
 .single-product:hover {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  border-radius: 10px;
   border: 1px solid #377697;
+  background-color: #37759752;
 }
 
 .product-image {
@@ -125,7 +127,7 @@ body {
 .cart {
   width: 350px;
   padding: 10px;
-  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+  box-shadow: 0px 0px 50px #636363;
   border-radius: 20px;
   margin-right: 30px;
   position: fixed;
