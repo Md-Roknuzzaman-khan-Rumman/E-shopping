@@ -1,29 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(0deg, rgba(94, 204, 255, 0.705), rgb(0, 0, 0));
+  color: white;
+}
+.shop_name {
+  font-weight: 600;
 }
 .search-field {
   border: none;
-  border-radius: 50px;
+  border-radius: 4px;
   padding: 5px;
   outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: transparent;
 }
-.search-field:hover {
+.search-field:focus {
   outline: none;
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  border: 1px solid rgba(94, 204, 255, 0.705);
+  width: 252px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 30px;
   border-right: none;
 }
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 25px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 0px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: rgba(94, 204, 255, 0.705);
 }
 #all-products {
   display: grid;
@@ -37,12 +58,16 @@ body {
 }
 .single-product {
   padding: 10px;
-  transition: 0.6s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 4px 4px 7px rgb(24, 24, 24);
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgba(94, 204, 255, 0.705);
 }
 .product-image {
   width: 150px;
@@ -52,7 +77,7 @@ body {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: 10px 10px 20px rgba(94, 204, 255, 0.226);
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
